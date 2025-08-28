@@ -1,0 +1,15 @@
+{
+  "name": "polynomial-secret-solver",
+  "version": "1.0.0",
+  "description": "Solves polynomial equations using Lagrange interpolation to find secret constants",
+  "main": "solver.js",
+  "scripts": {
+    "start": "node solver.js",
+    "test": "node solver.js",
+    "test1": "node solver.js testcase1.json",
+    "test2": "node solver.js testcase2.json"
+  },
+  "keywords": ["polynomial", "lagrange", "interpolation", "cryptography"],
+  "author": "Your Name",
+  "license": "MIT"
+}
